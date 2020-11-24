@@ -1,0 +1,25 @@
+a) 
+  1) git checkout -b My newBranch
+  2) git checkout myExisitingBranch
+  3) git push
+
+b) 
+  1) Makes a new branch
+  2) Moves branches
+  3) Pushes code from local to repo
+
+c)
+  1) git clone [--template=<template_directory>]
+	  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
+	  [-o <name>] [-b <name>] [-u <upload-pack>] 
+          [--reference <repository>]
+	  [--dissociate] [--separate-git-dir <git dir>]
+	  [--depth <depth>] [--[no-]single-branch] [--no-tags]
+	  [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]
+	  [--[no-]remote-submodules] [--jobs <n>] [--sparse]
+	  [--filter=<filter>] [--] <repository>
+	  [<directory>]
+
+  2) The git clone command clones a repo into a new directory with
+     remote tracking branches so that multiple people can work localy
+     on the code.
